@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+.bground {
+    background-color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+    .bground {
+        background-color: #f8f8f8;
+    }
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    height: 97vh;
+}
+
+.backimg {
+    display: none;
+    background-size: cover;
+}
+
+@media (min-width: 1024px) {
+    .backimg {
+        display: block;
+        width: 66.67%;
+    }
+}
+
+.mycont {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-color: rgba(31, 41, 55, 0.4);
+}
+
+.htext {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+@media (min-width: 640px) {
+    .htext {
+        font-size: 1.875rem;
+    }
+}
+
+.para {
+    max-width: 36rem;
+    margin-top: 0.75rem;
+    color: #d1d5db;
+}
+
+.flexcont-1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 28rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 1024px) {
+    .flexcont-1 {
+        width: 25.33%;
+    }
+}
+
+.t-c {
+    text-align: center;
+    width: 335px;
+}
+
+.my-txt {
+    margin-top: -1.25rem;
+    color: #6b7280;
+    padding-right: 7px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .my-txt {
+        color: #909db0e3;
+        ;
+    }
+}
+
+.mt-8 {
+    margin-top: 2rem;
+}
+
+.elee {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    color: #4b5563;
+}
+
+@media (prefers-color-scheme: dark) {
+    .elee {
+        color: #0a0a0a;
+    }
+}
+
+.myinp {
+    display: block;
+    width: 100%;
+    padding-left: 3rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    color: #374151;
+    background-color: white;
+    border: 2px solid #9191ae;
+    border-radius: 0.5rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.myinp::placeholder {
+    color: #9ca3af;
+}
+
+@media (prefers-color-scheme: dark) {
+    .myinp {
+        background-color: #e9e9e9;
+        color: #020509;
+        border-color: #ffffff;
+    }
+    .myinp:placeholder {
+        color: #4b5563;
+    }
+}
+
+.myinp:focus {
+    border-color: #60a5fa;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.4);
+}
+
+.mt-6 {
+    margin-top: 1.5rem;
+}
+
+.flex-container2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    width: 340px;
+}
+
+.txtpass {
+    font-size: 16px;
+    color: #0a0a0a;
+}
+
+@media (prefers-color-scheme: dark) {
+    .txtpass {
+        color: #0a0a0a;
+    }
+}
+
+.Forgpass {
+    font-size: 0.875rem;
+    color: #9ca3af;
+    transition: color 0.2s;
+}
+
+.Forgpass:hover {
+    color: #3b82f6;
+    text-decoration: underline;
+}
+
+.Forgpass:focus {
+    color: #3b82f6;
+    outline: none;
+}
+
+.paswd {
+    display: block;
+    width: 100%;
+    padding-left: 3rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    color: #374151;
+    background-color: white;
+    border: 2px solid #9191ae;
+    border-radius: 0.5rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.paswd::placeholder {
+    color: #9ca3af;
+}
+
+@media (prefers-color-scheme: dark) {
+    .paswd {
+        background-color: #e9e9e9;
+        color: #020509;
+        border-color: #f2f2f2;
+    }
+    .paswd::placeholder {
+        color: #4b5563;
+    }
+}
+
+.paswd:focus {
+    border-color: #60a5fa;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.4);
+}
+
+.self {
+    padding: 0px 38px 0px 83px;
+}
+
+.my-button {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    letter-spacing: 0.05em;
+    color: white;
+    background-color: #3b82f6;
+    border-radius: 0.5rem;
+    transition: background-color 300ms, box-shadow 300ms;
+}
+
+.my-button:hover {
+    background-color: #60a5fa;
+}
+
+.my-button:focus {
+    outline: none;
+    background-color: #60a5fa;
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.5);
+}
+
+.mtxt2 {
+    margin-top: 1.5rem;
+    font-size: 0.875rem;
+    text-align: center;
+    color: #9ca3af;
+    padding: 0px 6px 0px 30px;
+}
+
+.link {
+    color: #3b82f6;
+    transition: text-decoration 0.2s;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link:focus {
+    outline: none;
+    text-decoration: underline;
+}
